@@ -64,6 +64,7 @@ window.addEventListener("load", function () {
 
     taskDelete.addEventListener("click", function () {
       taskList.removeChild(taskElement);
+      hidden.style.display = "none";
     });
   });
 });
